@@ -1,0 +1,448 @@
+{
+  "products": {
+    "6a84463d465eb429": {
+      "name": "macbook pro",
+      "category": "laptop",
+      "price": 2000,
+      "stock": 44
+    },
+    "8cec9c249d131d67": {
+      "name": "bottle",
+      "category": "container",
+      "price": 22,
+      "stock": 10
+    },
+    "a747e69b2a8dad93": {
+      "name": "iphone",
+      "category": "phone",
+      "price": 4433,
+      "stock": 434
+    }
+  },
+  "suppliers": {
+    "2fe08ec78d36490d": {
+      "company_name": "samsung",
+      "contact_name": "tracy",
+      "phone": "53524242"
+    },
+    "9fd8f954dd0fa2d4": {
+      "company_name": "apple",
+      "contact_name": "shanu",
+      "phone": "435252422"
+    }
+  },
+  "tasks": {
+    "00e94c879a3b029e": {
+      "status": "Completed",
+      "worker_id": 47
+    },
+    "021d819f68945af7": {
+      "status": "Completed",
+      "worker_id": 99
+    },
+    "02f75ef8b996a6c7": {
+      "status": "Completed",
+      "worker_id": 24
+    },
+    "09a81e77f8c966b8": {
+      "status": "Completed",
+      "worker_id": 71
+    },
+    "0c019b98bed5fef8": {
+      "status": "Completed",
+      "worker_id": 26
+    },
+    "0d3d56be913bdc50": {
+      "status": "Completed",
+      "worker_id": 44
+    },
+    "0faa45193f6317aa": {
+      "status": "Completed",
+      "worker_id": 75
+    },
+    "117fc3a7e43e6f44": {
+      "status": "Completed",
+      "worker_id": 20
+    },
+    "1a12ed866164cf26": {
+      "status": "Completed",
+      "worker_id": 81
+    },
+    "1b0f89d1f99fff5d": {
+      "status": "Completed",
+      "worker_id": 37
+    },
+    "1b4bd2053709ec9c": {
+      "status": "Completed",
+      "worker_id": 3
+    },
+    "1c10c848e6054ca1": {
+      "status": "Completed",
+      "worker_id": 21
+    },
+    "1e43142c996c8d6d": {
+      "status": "Completed",
+      "worker_id": 7
+    },
+    "227e35811a51c0b4": {
+      "status": "Completed",
+      "worker_id": 12
+    },
+    "25fca6b5cef02726": {
+      "status": "Completed",
+      "worker_id": 15
+    },
+    "2a1fb7500d725168": {
+      "status": "Completed",
+      "worker_id": 82
+    },
+    "334ab9c53db7f193": {
+      "status": "Completed",
+      "worker_id": 91
+    },
+    "33f663c85fcb09d7": {
+      "status": "Completed",
+      "worker_id": 11
+    },
+    "35e667cfdc0f39ff": {
+      "status": "Completed",
+      "worker_id": 48
+    },
+    "36487d19f3be9dd5": {
+      "status": "Completed",
+      "worker_id": 67
+    },
+    "371da8d9afa62e53": {
+      "status": "Completed",
+      "worker_id": 96
+    },
+    "374d44286c99f98f": {
+      "status": "Completed",
+      "worker_id": 42
+    },
+    "37e53492253c9ea9": {
+      "status": "Completed",
+      "worker_id": 49
+    },
+    "39f1bae83c82b4df": {
+      "status": "Completed",
+      "worker_id": 54
+    },
+    "3ab41837c3d0d3b4": {
+      "status": "Completed",
+      "worker_id": 77
+    },
+    "3ba96f6dacaee9a0": {
+      "status": "Completed",
+      "worker_id": 41
+    },
+    "44b4a7250398b31e": {
+      "status": "Completed",
+      "worker_id": 86
+    },
+    "45849ea81b162693": {
+      "status": "Completed",
+      "worker_id": 73
+    },
+    "4887ead81cb350eb": {
+      "status": "Completed",
+      "worker_id": 4
+    },
+    "4ec1cba0147fefc5": {
+      "status": "Completed",
+      "worker_id": 97
+    },
+    "56d7bb08cadcb7c5": {
+      "status": "Completed",
+      "worker_id": 10
+    },
+    "592110baaedf1816": {
+      "status": "Completed",
+      "worker_id": 35
+    },
+    "5bb72958335f0b16": {
+      "status": "Completed",
+      "worker_id": 53
+    },
+    "5d9b8d2f5613066a": {
+      "status": "Completed",
+      "worker_id": 43
+    },
+    "63bc111157dfc955": {
+      "status": "Completed",
+      "worker_id": 84
+    },
+    "63c0c604c881421d": {
+      "status": "Completed",
+      "worker_id": 63
+    },
+    "655823ca7f4ccd52": {
+      "status": "Completed",
+      "worker_id": 83
+    },
+    "662f10782c18aaa9": {
+      "status": "Completed",
+      "worker_id": 89
+    },
+    "6d3a63bf88eef505": {
+      "status": "Completed",
+      "worker_id": 55
+    },
+    "6ec60e54725e4037": {
+      "status": "Completed",
+      "worker_id": 27
+    },
+    "6fbca327e59c35f2": {
+      "status": "Completed",
+      "worker_id": 85
+    },
+    "711c838cc35f3ac7": {
+      "status": "Completed",
+      "worker_id": 19
+    },
+    "732364910d39eaa4": {
+      "status": "Completed",
+      "worker_id": 17
+    },
+    "76fc40c95d691ae2": {
+      "status": "Completed",
+      "worker_id": 8
+    },
+    "7b8f2977d465e98c": {
+      "status": "Completed",
+      "worker_id": 76
+    },
+    "7daa6f56f2d9bf04": {
+      "status": "Completed",
+      "worker_id": 32
+    },
+    "7e4a3bdbfc536f94": {
+      "status": "Completed",
+      "worker_id": 18
+    },
+    "7e72774fb4b12c33": {
+      "status": "Completed",
+      "worker_id": 95
+    },
+    "81605ccba015b1bd": {
+      "status": "Completed",
+      "worker_id": 23
+    },
+    "841b81764beed502": {
+      "status": "Completed",
+      "worker_id": 87
+    },
+    "88bb7914db4cf49d": {
+      "status": "Completed",
+      "worker_id": 45
+    },
+    "8e596375df26dd3c": {
+      "status": "Completed",
+      "worker_id": 70
+    },
+    "8fc97ce916798412": {
+      "status": "Completed",
+      "worker_id": 64
+    },
+    "90d785c75eea12d4": {
+      "status": "Completed",
+      "worker_id": 22
+    },
+    "91aa2e22b7798148": {
+      "status": "Completed",
+      "worker_id": 51
+    },
+    "92659d929286e94e": {
+      "status": "Completed",
+      "worker_id": 60
+    },
+    "9333b95cf9e824fa": {
+      "status": "Completed",
+      "worker_id": 36
+    },
+    "979943724c997de5": {
+      "status": "Completed",
+      "worker_id": 69
+    },
+    "988097c66ed0c44f": {
+      "status": "Completed",
+      "worker_id": 5
+    },
+    "9a51325b014e8fef": {
+      "status": "Completed",
+      "worker_id": 98
+    },
+    "9acb1c9999696f81": {
+      "status": "Completed",
+      "worker_id": 29
+    },
+    "9d1b34589658a09f": {
+      "status": "Completed",
+      "worker_id": 34
+    },
+    "9ddc2d1eed0baa6c": {
+      "status": "Completed",
+      "worker_id": 39
+    },
+    "a1b70a2379b3c384": {
+      "status": "Completed",
+      "worker_id": 40
+    },
+    "a1b9dad536ef921a": {
+      "status": "Completed",
+      "worker_id": 31
+    },
+    "a2c49a0c5b7587eb": {
+      "status": "Completed",
+      "worker_id": 93
+    },
+    "a53f4733e3411035": {
+      "status": "Completed",
+      "worker_id": 1
+    },
+    "aa90ef04a621d999": {
+      "status": "Completed",
+      "worker_id": 80
+    },
+    "aae4f17c4ad73db4": {
+      "status": "Completed",
+      "worker_id": 61
+    },
+    "ac0ea46beb6bf74d": {
+      "status": "Completed",
+      "worker_id": 68
+    },
+    "b189817a0d759917": {
+      "status": "Completed",
+      "worker_id": 33
+    },
+    "b5dbee393025ecec": {
+      "status": "Completed",
+      "worker_id": 58
+    },
+    "b98174b1b441bb7e": {
+      "status": "Completed",
+      "worker_id": 30
+    },
+    "bd0905da80c3c45c": {
+      "status": "Completed",
+      "worker_id": 90
+    },
+    "bd994b1cabf1a65a": {
+      "status": "Completed",
+      "worker_id": 72
+    },
+    "c55c25e6880c1ba8": {
+      "status": "Completed",
+      "worker_id": 92
+    },
+    "c8893cb61cbf4806": {
+      "status": "Completed",
+      "worker_id": 74
+    },
+    "cc538f8f6ec9072e": {
+      "status": "Completed",
+      "worker_id": 78
+    },
+    "cd207e499c718fba": {
+      "status": "Completed",
+      "worker_id": 56
+    },
+    "ce5313d52ea47a89": {
+      "status": "Completed",
+      "worker_id": 59
+    },
+    "ceaa9b878464b6e3": {
+      "status": "Completed",
+      "worker_id": 62
+    },
+    "d28a2f6e2b5a753e": {
+      "status": "Completed",
+      "worker_id": 79
+    },
+    "d5a489cdbe686202": {
+      "status": "Completed",
+      "worker_id": 14
+    },
+    "d751e3f5edd54315": {
+      "status": "Completed",
+      "worker_id": 16
+    },
+    "d8591d012c238eb6": {
+      "status": "Completed",
+      "worker_id": 50
+    },
+    "d8bd5b95fd5165e4": {
+      "status": "Completed",
+      "worker_id": 6
+    },
+    "d8e2d6fcd329e268": {
+      "status": "Completed",
+      "worker_id": 13
+    },
+    "d968d588e2653a49": {
+      "status": "Completed",
+      "worker_id": 46
+    },
+    "da45512c83e11b8e": {
+      "status": "Completed",
+      "worker_id": 2
+    },
+    "dab1c22ddc89f274": {
+      "status": "Completed",
+      "worker_id": 28
+    },
+    "db4494fca71e5bfa": {
+      "status": "Completed",
+      "worker_id": 94
+    },
+    "dcafb953437ccf34": {
+      "status": "Completed",
+      "worker_id": 88
+    },
+    "ded6b31da6dc7ca3": {
+      "status": "Completed",
+      "worker_id": 25
+    },
+    "e2fe8a70e1aaac3c": {
+      "status": "Completed",
+      "worker_id": 57
+    },
+    "e80804f72e5f3bdd": {
+      "status": "Completed",
+      "worker_id": 100
+    },
+    "ede49af9387f1d01": {
+      "status": "Completed",
+      "worker_id": 65
+    },
+    "f1d5fc3661817218": {
+      "status": "Completed",
+      "worker_id": 52
+    },
+    "f38b9af989dcbd1b": {
+      "status": "Completed",
+      "worker_id": 9
+    },
+    "f9b0d14f14fb2d46": {
+      "status": "Completed",
+      "worker_id": 38
+    },
+    "ff36733702e0c654": {
+      "status": "Completed",
+      "worker_id": 66
+    }
+  },
+  "users": {
+    "7fcbebef8fea33d6": {
+      "age": 36,
+      "email": "ada@example.com",
+      "name": "Ada Lovelace"
+    },
+    "ead0964e27d467f7": {
+      "age": 36,
+      "email": "ada@example.com",
+      "name": "Ada Lovelace"
+    }
+  }
+}
