@@ -1,22 +1,28 @@
 {
   "products": {
     "6a84463d465eb429": {
-      "name": "macbook pro",
       "category": "laptop",
+      "name": "macbook pro",
       "price": 2000,
       "stock": 44
     },
     "8cec9c249d131d67": {
-      "name": "bottle",
       "category": "container",
+      "name": "bottle",
       "price": 22,
       "stock": 10
     },
     "a747e69b2a8dad93": {
-      "name": "iphone",
       "category": "phone",
+      "name": "iphone",
       "price": 4433,
       "stock": 434
+    },
+    "dd3f27704910198d": {
+      "name": "watch",
+      "category": "electrons",
+      "price": 200,
+      "stock": 44
     }
   },
   "suppliers": {
