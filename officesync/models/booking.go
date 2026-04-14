@@ -15,7 +15,7 @@ type Booking struct {
 	Status     string    `json:"status" gorm:"default:'active'"`
 
 	User     User     `json:"-" gorm:"foreignKey:UserID"`
-	Resource Resource `json:"-" gorm:"foreignKey:ResourceID"`
+	Resource Resource `json:"Resource" gorm:"foreignKey:ResourceID"`
 }
 
 type CreateBookingRequest struct {

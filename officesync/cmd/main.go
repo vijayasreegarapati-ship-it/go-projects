@@ -6,7 +6,6 @@ import (
 
 	"officesync/handlers"
 	"officesync/middleware"
-	"officesync/models"
 	"officesync/services"
 
 	"github.com/gin-contrib/cors"
@@ -38,11 +37,11 @@ func main() {
 	}
 	log.Println("Successfully connected to the OfficeSync database.")
 
-	log.Println("Running database migrations...")
-	err = db.AutoMigrate(&models.User{}, &models.Resource{}, &models.Booking{})
-	if err != nil {
-		log.Fatal("Failed to migrate database:", err)
-	}
+	// log.Println("Running database migrations...")
+	// err = db.AutoMigrate(&models.User{}, &models.Resource{}, &models.Booking{})
+	// if err != nil {
+	// 	log.Fatal("Failed to migrate database:", err)
+	//}
 
 	userService := services.NewUserService(db)
 	resourceService := services.NewResourceService(db)
@@ -72,6 +71,7 @@ func main() {
 		v1.PUT("/resources/:id", middleware.RequireAdmin(), resourceHandler.HandleUpdateResource)
 
 		v1.POST("/bookings", bookingHandler.HandleCreateBooking)
+		v1.GET("/bookings", bookingHandler.HandleGetUserBookings)
 	}
 
 	log.Printf("Server starting on port %s", port)

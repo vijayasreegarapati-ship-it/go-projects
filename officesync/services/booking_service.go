@@ -53,3 +53,14 @@ func (s *BookingService) CreateBooking(userID, resourceID uint, start, end time.
 
 	return &booking, nil
 }
+
+func (s *BookingService) GetUserBookings(userID uint) ([]models.Booking, error) {
+	var bookings []models.Booking
+
+	err := s.DB.Preload("Resource").
+		Where("user_id = ? AND status = ?", userID, "active").
+		Order("start_time asc").
+		Find(&bookings).Error
+
+	return bookings, err
+}

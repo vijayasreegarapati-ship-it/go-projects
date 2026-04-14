@@ -44,3 +44,29 @@ func (h *BookingHandler) HandleCreateBooking(c *gin.Context) {
 
 	c.JSON(http.StatusCreated, booking)
 }
+
+func (h *BookingHandler) HandleGetUserBookings(c *gin.Context) {
+	userIDStr := c.GetHeader("X-User-Id")
+	if userIDStr == "" {
+		c.JSON(http.StatusUnauthorized, gin.H{"error": "unauthorized: missing X-User-Id header"})
+		return
+	}
+
+	userID, err := strconv.ParseUint(userIDStr, 10, 32)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "invalid user id"})
+		return
+	}
+
+	bookings, err := h.bookingService.GetUserBookings(uint(userID))
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to fetch bookings"})
+		return
+	}
+
+	if bookings == nil {
+		bookings = []models.Booking{}
+	}
+
+	c.JSON(http.StatusOK, bookings)
+}
